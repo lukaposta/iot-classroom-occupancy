@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Status</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="header">Room Status</div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="index.html">🏠 Home</a>
+            <a href="daily-summaries.html">📊 Daily Usage Summaries</a>
+            <a href="peak-time.html">⏳ Peak Time Report</a>
+        </div>
+        <div class="main-content">
+            <div id="status-box" class="status-box">Current status: <strong>Loading...</strong></div>
+            <div id="average-occupancy-duration" class="average-occupancy-text"></div>
+            <div id="occupancy-duration" class="occupancy-text"></div>
+        </div>        
+        <div id="popup" class="popup-container">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <h2>Warning!</h2>
+                <p>The room has been occupied for more than 5 hours!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

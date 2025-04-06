@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Usage Summaries</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="header">Daily Usage Summaries</div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="index.html">🏠 Home</a>
+            <a href="daily-summaries.html">📊 Daily Usage Summaries</a>
+            <a href="peak-time.html">⏳ Peak Time Report</a>
+        </div>
+        <div class="main-content">
+            <h2>Daily Usage</h2>
+            <label for="date-picker">Select Date:</label>
+            <input type="date" id="date-picker">
+            <canvas id="daily-summary-chart" width="600" height="600"></canvas>
+        </div>        
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
