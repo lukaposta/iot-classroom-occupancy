@@ -284,9 +284,5 @@ npm start
 
 This project was developed as part of the **Networked Systems Development** course at the **Faculty of Organization and Informatics (FOI)** by:  
 
-- **Larija Jukić**  
-- **Martin Kelemen**  
-- **Dora Kulaš**  
 - **Lana Ljubičić**  
-- **Vito Petrinjak**  
 - **Luka Pošta**  
